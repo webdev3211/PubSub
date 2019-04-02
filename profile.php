@@ -100,20 +100,21 @@ $result = $statement->fetchAll();
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 </head>
 <body>
-<div class="container">
    <?php 
    include('menu.php');
    ?>
+<div class="container">
+   
    <div class="row">
     <div class="col-md-3">
     
     </div>
     <div class="col-md-6">
      <div class="panel panel-default">
-      <div class="panel-heading">
+      <div class="panel-heading" style="background: tomato; color: white;">
        <h3 class="panel-title">Edit Profile</h3>
       </div>
       <div class="panel-body">

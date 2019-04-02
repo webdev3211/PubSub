@@ -65,16 +65,16 @@ if(isset($_POST['login'])){
 }  
 .bg {
   /* The image used */
-  background-image: url("https://thumbs.dreamstime.com/z/network-connecting-people-white-background-35375309.jpg");
+  background-image: url("https://i.ibb.co/WvWPgZC/img1.jpg");
 
   /* Full height */
   height: 100%; 
 
   /* Center and scale the image nicely */
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
 }
+
 
 #panelllll {
     box-shadow: 0 10px 16px 0 rgba(0, 0, 255, 0.2);
@@ -92,7 +92,7 @@ if(isset($_POST['login'])){
         <div class="container">
    
 <div class="row" style="margin-top: 100px;">
-    <div class="col-md-6">
+    <div class="col-md-6" >
     <div class="panel panel-default" id="panelllll">
       <div class="panel-heading" style="background:tomato; font-weight:bold; color: white; align: center;">Login</div>
     <div class="panel-body">
@@ -100,7 +100,7 @@ if(isset($_POST['login'])){
       <p class="text-danger"><?php echo $message; ?></p>
       <div class="form-group">
        <label>Enter Username</label>
-       <input type="text" placeholder="john..." name="username" class="form-control" required />
+       <input type="text" placeholder="john..." name="username" class="form-control" autocomplete="off" required />
       </div>
       <div class="form-group">
        <label>Enter Password</label>
@@ -109,7 +109,7 @@ if(isset($_POST['login'])){
       <div class="form-group">
        <input type="submit" name="login" class="btn btn-info" value="Login" style="background: tomato;"/>
       </div>
-      <div align="left">
+      <div align="left" style="font-weight:bold;">
        <span class="text-muted">New Here ?</span> <a href="register.php">Register Now</a>
       </div>
      </form>

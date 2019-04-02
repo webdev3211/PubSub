@@ -83,16 +83,37 @@ Registration Completed
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<style>
+.bg {
+  /* The image used */
+  background-image: url("https://i.ibb.co/mJd8wh3/img2.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#panelllll {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 255, 0.2);
+  }
+
+</style>
 </head>
 
 <body>  
         <div class="container">
    <br />
-   
-   <h3 align="center">Twitter Like Follow Unfollow System in PHP using Ajax jQuery</a></h3><br />
    <br />
-   <div class="panel panel-default">
-      <div class="panel-heading">Register</div>
+   <div class="row" style="margin-top: 100px;">   
+   <div class="col-md-6">
+   
+   <div class="panel panel-default" id="panelllll">
+   <div class="panel-heading" style="background:tomato; font-weight:bold; color: white; align: center;">Register</div>
+
     <div class="panel-body">
      <form method="post">
       <span class="text-danger">
@@ -111,14 +132,24 @@ Registration Completed
        <input type="password" name="confirm_password" id="confirm_password" class="form-control" />
       </div>
       <div class="form-group">
-       <input type="submit" name="register" class="btn btn-info" value="Register" />
+       <input type="submit" name="register" class="btn btn-info" value="Register" style="background: tomato;" />
       </div>
-      <div align="center">
-       <a href="login.php">Login</a>
+      <div align="center" style="font-weight:bold;">
+      <span class="text-muted">Already Registered ?</span> <a href="login.php">Login Here</a>
+    
+       
       </div>
      </form>
     </div>
    </div>
+
+    </div>
+  
+
+   <div class="col-md-6">
+        <img src="https://i.ibb.co/41cLHTF/img2.jpg" style="float: right; height:300px; width: 300px;">
+    </div>
+
   </div>
     </body>  
 
